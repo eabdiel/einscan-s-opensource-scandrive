@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\einscan_legacy_bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{69B523E8-3AD4-3B2C-AA34-CB5E40838E77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

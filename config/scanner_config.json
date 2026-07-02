@@ -1,0 +1,9 @@
+{
+  "mode": "native",
+  "bridge_exe": "bridge_cpp/build/Release/einscan_legacy_bridge.exe",
+  "default_output_dir": "output",
+  "sdk_family": "deprecated-einscan-s",
+  "sdk_root": "third_party/deprecated-EinScan-SDK",
+  "notes": "Native mode uses the real deprecated EinScan-S SDK bridge. Mock mode remains available only for UI testing.",
+  "default_scan_duration_seconds": 15
+}

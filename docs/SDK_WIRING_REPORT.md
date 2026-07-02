@@ -1,0 +1,411 @@
+# SDK Wiring Report
+
+SDK root: `C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\third_party\deprecated-EinScan-SDK`
+
+Headers: 5
+LIBs: 1
+DLLs: 86
+Solutions: 0
+VCXPROJ: 0
+
+## Libraries
+
+- `third_party\deprecated-EinScan-SDK\SDK\x64_lib\sn3d_pro_sdk.lib`
+
+## DLLs
+
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithm1.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithm2.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithm3.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithmHlj.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithmYxl.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\alpV42.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\BayerDec.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_chrono-vc120-mt-1_58.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_filesystem-vc120-mt-1_58.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_system-vc120-mt-1_58.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_thread-vc120-mt-1_58.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\common.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\cudart64_70.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\cufft64_70.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\dynamixel.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\FreeImage.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\hardware_line_scaner.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\hasp_windows_x64_105562.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\laser_scaner.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\libglog.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\nppc64_70.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\nppi64_70.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_calib3d300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_core300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_cudaarithm300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_cudafilters300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_cudawarping300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_features2d300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_flann300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_highgui300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_imgcodecs300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_imgproc300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_video300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_videoio300.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\OpenMeshCore.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\OpenMeshTools.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\project.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Qt5Core.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Qt5Gui.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Qt5Widgets.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\S3DScanProcessing64.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\SiUSBXp.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DAlpCtrl.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DCalibration.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DCamera.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3DComputerRT.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DDLPdev.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DEncodeRecognition.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DFileIO.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHandiDLPDev.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHandiSync.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHDEinS.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHidBand.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHIDCommunication.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHiddev.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DImageLoad.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLaserPlatCalibrate.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLcrdev.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLock.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLockDll.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DProjector.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3DRegistration.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DScan.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DSockdev.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DStereoBuild.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DTargetAlign.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DTargetExtract.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3DTriMeshByPAG.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DTurnTable.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3D_Point_Extract.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3d_pro_sdk.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\snCameraControl.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\tbb.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Ty3dEllipseReconstruction.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\USBAPI.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\utils.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\MDVCamera.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\MVCamera.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\OMCamera.dll`
+- `third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\SHNCamera.dll`
+- ... 6 more
+
+## Solutions
+
+
+## Projects
+
+
+## Likely SDK symbols / methods
+
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:7` `#ifdef SN3DSCAN_EXPORTS`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:8` `#define SN3D_SCAN_API  __declspec(dllexport)`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:10` `#define SN3D_SCAN_API  __declspec(dllimport)`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:18` `#define SN3D_SCAN_API	extern "C"`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:35` `#define	SN3D_INIT_CALIBRATE							0x00000000	//calibrate initialise`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:36` `#define	SN3D_INIT_RAPIDSCAN							0x00000001	//Rapid scan initialization`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:37` `#define	SN3D_INIT_HD_SCAN							0x00000002	//HD scan initialization`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:38` `#define	SN3D_INIT_FIX_SCAN							0x00000003	//Fix scan initialization`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:40` `#define SN3D_ALIGN_MODE_FEATURE						2		    //Alignment based on features`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:41` `#define SN3D_ALIGN_MODE_MARK_POINT					1			//Alignment based on reference points`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:42` `#define SN3D_ALIGN_MODE_GLOABL_MARK_POINT			3			//Alignment based on global reference points`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:43` `#define SN3D_ALIGN_TURTABLE_CODE_POINT				4			//Alignment based on turntable  reference points`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:47` `#define	SN3D_DISTANCE_INDECATE							7	//The Notification of scan work distance 1-10:normal, 0:too close;11:too far;12: track lost`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:48` `#define	SN3D_SCANNER_RT_READY							8	//The Notification of scan transformation matrix`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:49` `#define	SN3D_CURRENT_MARKPOINT_DATA_READY				9	//The Notification of reference points data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:50` `#define	SN3D_CURRENT_SCAN_POINT_CLOUD_READY				10	//The Notification of current scan data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:51` `#define	SN3D_WHOLE_SCAN_POINT_CLOUD_READY				11	//The Notification of the whole point cloud data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:52` `#define	SN3D_WHOLE_MARKPOINT_DATA_READY					12	//The Notification of the whole of reference points data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:54` `#define	SN3D_CALIBRATION_STATE_DATA	                    13	//The notification of Calibration status`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:55` `#define	SN3D_SCANNER_DOUBLECLICK	                    14	//The Notification of â€˜Scanâ€™ button is double-clicked`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:56` `#define	SN3D_SCANNER_CLICK	                            15	//The Notification of â€˜Scanâ€™ button is single-clicked`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:57` `#define	SN3D_SCANNER_PLUS	                            16	//The Notification of  â€œ+â€ button is clicked`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:58` `#define	SN3D_SCANNER_SUB	                            17	//The Notification of  â€œ-â€ button is clicked`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:70` `#define	SN3D_MESH_DATA_READY							28	//The Notification  after mesh data process`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:71` `#define	SN3D_PREVIEW_SCAN_POINT_CLOUD_READY				29	//The Notification  of preview scan state`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:72` `#define	SN3D_PREVIEW_SCAN_MARKPOINT_DATA_READY			30	//The Notification  of preview scan state`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:76` `#define SN3D_MESH_WATERTIGHT							1	//mesh watertight`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:77` `#define SN3D_MESH_UNWATERTIGHT							2	//mesh unwatertight`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:80` `#define	SN3D_MESH_HIGHT									0	//hight resolution`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:81` `#define	SN3D_MESH_MIDDLE								1	//middle resolution`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:82` `#define	SN3D_MESH_LOW									2	//low resolution`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:91` `#define	SN3D_RET_NO_DEVICE_ERROR						 -6		//not connect device`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:92` `#define	SN3D_RET_DEVICE_LICENSE_ERROR					 -7		//device license error`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:95` `#define SN3D_RET_NOT_CALIBRATE_ERROR                     -10	//not calibrate error`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:96` `#define SN3D_RET_LOST_CONFIG_FILE_ERROR                  -11	//not calibrate error`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:98` `#define SN3D_RET_LOST_CALIBRATE_FILE_ERROR               -13	//not calibrate error`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:99` `#define SN3D_RET_NO_GLOBAL_MARK_POINT_PARAM_ERROR        -14	//no global mark point`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:101` `#define  SN3D_CALIBRATE_STATE_CAMERA					0		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:102` `#define  SN3D_CALIBRATE_STATE_HD						1		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:103` `#define  SN3D_CALIBRATE_STATE_WB						2		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:104` `#define  SN3D_CALIBRATE_STATE_EXIT						3		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:107` `#define  SN3D_CALIBRATE_INVALID							-1		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:108` `#define  SN3D_CALIBRATE_SNAP_STATE_ON					0		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:109` `#define  SN3D_CALIBRATE_SNAP_STATE_OFF					1		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:111` `#define  SN3D_CALIBRATE_COMPUTING						0		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:112` `#define  SN3D_CALIBRATE_COMPUTE_SUCCESS					1		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:113` `#define  SN3D_CALIBRATE_COMPUTE_FAILED					2		//`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:121` `typedef struct tagSN3D_INIT_DATA`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:124` `char*             device_type;                  // The type of device to control different devices. Reserved word.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:127` `}SN3D_INIT_DATA, *LPSN3D_INIT_DATA;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:142` `int							id;				//The ID of cameras. 0 : Left camera , 1: Right camera , 2: Color camera.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:148` `typedef struct tagSN3D_SCAN_PARAM`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:150` `double		resolution;            //Space resolution. Value: 0.2-3.0 for HD scan;0.5-3.0 for Rapid Scan`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:151` `int		    flag_texture;          //Scan with color setting, 0 : scan without color ,1 : scan with color`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:152` `int		    align_mode;            //Alignment mode. Reference: Alignment mode macro definition`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:153` `} SN3D_SCAN_PARAM, *LPSN3D_SCAN_PARAM;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:155` `typedef struct tagSN3D_POINT_DATA`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:161` `} SN3D_POINT_DATA, *LPSN3D_POINT_DATA;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:164` `typedef struct tagSN3D_CLOUD_POINT`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:168` `SN3D_POINT_DATA   *vertex_data;			//The data of vertex.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:170` `SN3D_POINT_DATA   *norma_data;			//The data of vertex normal.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:172` `SN3D_POINT_DATA    *vertex_color_data;	//The data of vertex color.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:174` `}SN3D_CLOUD_POINT, *LPSN3D_CLOUD_POINT;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:177` `typedef struct tagSN3D_SCANNER_RT`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:181` `} SN3D_SCANNER_RT, *LPSN3D_SCANNER_RT;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:184` `typedef struct tagSN3D_STATE_CALIBRATE`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:186` `int        current_calibrate;           //Reference:Calibration type macro definition: 0:Scanner calibration;1:HD calibration;2:White Balance;3:Calibration finished.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:187` `int        distance_indicate;           //The work distance between scanner and calibration board, bigger value, further distance.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:190` `int        current_group;               //HD calibration: ranges:0-6.Each value must appear once.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:194` `int        snap_state;                  //Reference :The Constants of Calibration Capture Status.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:196` `int        compute_state;               //Reference :The Constants of Calibration Calculation Status.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:199` `}SN3D_STATE_CALIBRATE, *LPSN3D_STATE_CALIBRATE;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:202` `typedef struct tagSN3D_MESH_PROCESS_PARAM`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:204` `int			mesh_type;					//Reference:Mesh type macro definition`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:205` `int			mesh_resolution;			//Reference:Mesh resolution macro definition`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:210` `int			mark_point_fill_hole_flag;  //mark point fill whole flag,0 diable,1 enable`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:211` `int			plaint_fill_hole_flag;		//mark point fill whole flag,0 diable,1 enable`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:213` `} SN3D_MESH_PROCESS_PARAM, *LPSN3D_MESH_PROCESS_PARAM;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:224` `typedef struct tagSN3D_TRI_MESH`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:228` `SN3D_POINT_DATA			*vertex_data;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:229` `SN3D_POINT_DATA			*norma_data;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:230` `SN3D_POINT_DATA			*vertex_color_data;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:234` `}SN3D_TRI_MESH, *LSN3D_TRI_MESH;`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:241` `* @param[out]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:242` `* @param[out]	event_type			Events Type. Reference : The Notification Events of Calibration.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:244` `* @param[out]	data				The data structure pointer matched with event`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:258` `/** The Open Device Handle`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:259` `* @param[in]	type				Initialization type. Reference : The Definitions of Initialization Type`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:260` `* @param[in]	init_data			Initialize device parameters. Reference : SN3D_INIT_DATA`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:261` `* @param[out]	handle				Device handle.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:262` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:263` `*  NOTE: 1 . Function: Initialize device handle.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:264` `2 . Only One device handle can be used for one time.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:265` `3. Before calling sn3d_initialize to initialize a device handle, you need to call sn3d_close to release current device handle.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:268` `SN3D_SCAN_API int  CALL_METHOD  sn3d_Initialize(int  type, LPSN3D_INIT_DATA  init_data, void* & handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:270` `/** Close Device Handle`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:271` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:272` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:273` `*  NOTE:   1. Function: Release device handle.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:274` `2. Only One device handle can be used for one time.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:275` `3. Before calling sn3d_initialize to initialize a device handle, you need to release the current device handle first.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:278` `SN3D_SCAN_API int   CALL_METHOD   sn3d_close(void* handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:281` `/** Capture Calibration Images`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:282` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:283` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:286` `SN3D_SCAN_API int	CALL_METHOD   sn3d_start_calibrate(void* handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:288` `/** Skip the Current Calibration Phase`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:289` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:290` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:291` `*  NOTE:   1ï¼ŽIt can only achieve the skip function among the camera calibration ,HD calibration and white balance.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:292` `2ï¼ŽFor example, if it is in the camera calibration phase, the user can call this function to enter the HD calibration directly,`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:293` `if it is in the HD calibration phase, the user can call this function to enter the white balance phase directly,`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:294` `if it is in the white balance phase, the user can call this function to enter the camera calibration phase directly.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:297` `SN3D_SCAN_API int	CALL_METHOD   sn3d_skip_calibrate(void* handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:299` `/** Get the Camera Brightness Value Range`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:300` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:301` `* @param[out]	min					The minimum value of camera brightness , default is 0. Reserved word`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:302` `* @param[out]	max					The maximum value of camera brightness.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:303` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:306` `SN3D_SCAN_API int   CALL_METHOD  sn3d_get_brightness_range(void* handle, int& min,int& max);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:308` `/** Set Camera Brightness`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:309` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:311` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:314` `SN3D_SCAN_API int   CALL_METHOD  sn3d_set_brightness(void* handle, int brightness);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:316` `/** Get Camera Brightness`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:317` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:319` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:322` `SN3D_SCAN_API int   CALL_METHOD  sn3d_get_brightness(void* handle, int& brightness);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:325` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:328` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:329` `*  NOTE:  1. The system sends calibration events to registrant after calling this function.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:330` `2 .For getting the time notification , the user must call this function before calling start_scan or start_calibrate.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:333` `SN3D_SCAN_API int	CALL_METHOD   sn3d_regist_callback(void*  handle, sn3d_callback  call_back, void* user_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:335` `/** Set Scan Parameters`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:336` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:337` `* @param[in]	param				Scan configuration parameters.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:338` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:339` `*  NOTE:  1. It is only valid in SN3D_INIT_RAPIDSCAN or SN3D_INIT_HD_SCAN is set by sn3d_initialize .`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:340` `2. It only can be called before calling sn3d_start_scan or after calling sn3d_abandon_scan.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:341` `3. Calling this function to set scan parameters will clear scan data that are exist.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:344` `SN3D_SCAN_API int	CALL_METHOD   sn3d_set_scan_param(void*  handle, LPSN3D_SCAN_PARAM param);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:346` `/** Get Scan Parameters`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:347` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:348` `* @param[out]	param				Scan configuration parameters`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:349` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:350` `*  NOTE:   1 It is only valid in SN3D_INIT_RAPIDSCAN or SN3D_INIT_HD_SCAN is set by sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:352` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_scan_param(void*  handle, SN3D_SCAN_PARAM& param);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:354` `/** Start to Scan`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:355` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:356` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:358` `2. Send scan information that includes scan distance info, scan data etc. to users by calling this function while scanning.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:359` `3. The data from sn3d_get_current_scan_whole_point_cloud and sn3d_get_current_scan_point_cloud is only for 3D display.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:362` `SN3D_SCAN_API int	CALL_METHOD   sn3d_start_scan(void* handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:364` `/** Stop Scanning`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:365` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:366` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:367` `*  NOTE:  1. Get merged data from sn3d_get_current_scan_whole_point_cloud.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:368` `2. Call sn3d_start_scan to continue to scan.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:369` `3. Call sn3d_abandon_scan to delete scan data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:370` `4. Calling sn3d_set_scan_param is forbidden.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:372` `SN3D_SCAN_API int	CALL_METHOD   sn3d_finish_scan(void*   handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:374` `/** Pause Scanning`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:375` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:376` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:377` `*  NOTE:    1. Call sn3d_start_scan to continue to scan.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:378` `2. Call sn3d_abandon_scan to cancel scan data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:379` `3. Call sn3d_finish_scan to finish scan.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:380` `4. Calling sn3d_set_scan_param is forbidden.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:382` `SN3D_SCAN_API int	CALL_METHOD   sn3d_pause_scan(void*   handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:384` `/** Delete Scan Data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:385` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:386` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:387` `*  NOTE:   1. Clear all scan data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:388` `2. Call sn3d_set_scan_param to reset scan parameters.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:389` `3. Call sn3d_start_scan to continue to scan.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:392` `SN3D_SCAN_API int	CALL_METHOD   sn3d_abandon_scan(void*   handle);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:394` `/** Get Current Point Cloud Data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:395` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:396` `* @param[out]	point_cloud			Point cloud data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:397` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:398` `*  NOTE:     1. Calling this function is valid before getting the return value from callback function and receiving the SN3D_CURRENT_SCAN_POINT_CLOUD_READY.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:399` `2. This function needs to be called twice. The first time, keep point_cloud pointer member is NULL, the function will return the point number.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:400` `Allocate the memory according to the point number from outside; when the pointer is not NULL , user needs to call this function again ,and it will return point cloud data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:404` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_current_scan_point_cloud(void*   handle, SN3D_CLOUD_POINT& point_cloud);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:406` `/** Get Merged Whole Point Cloud Data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:407` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:408` `* @param[out]	point_cloud			Point cloud data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:409` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:410` `*  NOTE:    1. Calling this function is valid before getting the return value from callback function and receiving the SN3D_WHOLE_SCAN_POINT_CLOUD_READY`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:411` `2. This function needs to be called twice. The first time, keep point_cloud pointer member is NULL, the function will return the point number.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:412` `Allocate the memory according to the point number from outside; when the pointer is not NULL, user needs to call this function again, and it will return point cloud data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:413` `3. After calling sn3d_finish_scan, the data from this function is the final scan data, or the data is only for 3D display.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:418` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_current_scan_whole_point_cloud(void*   handle, SN3D_CLOUD_POINT& point_cloud);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:420` `/** Get Current Reference Points`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:421` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:422` `* @param[out]	point_cloud			Mark point cloud data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:423` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:424` `*  NOTE:    1. Calling this function is valid before getting the return value from callback function and receiving the SN3D_CURRENT_MARKPOINT_DATA_READY.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:425` `2ï¼ŽThis function needs to be called twice. The first time, keep point_cloud pointer member is NULL, the function will return the point number.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:426` `Allocate the memory according to the point number from outside; when the pointer is not NULL, user needs to call this function again, and it will return point cloud data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:430` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_current_mark_point(void*   handle, SN3D_CLOUD_POINT& point_cloud);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:432` `/** Get ALL of Reference Points`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:433` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:434` `* @param[out]	point_cloud			Mark point cloud data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:435` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:436` `*  NOTE:  1 Calling this function is valid before getting the return value from callback function and receiving SN3D_WHOLE_MARKPOINT_DATA_READY.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:437` `2 This function needs to be called twice. The first time, keep point_cloud pointer member is NULL, the function will return the point number.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:438` `Allocate the memory according to the point number from outside; when the pointer is not NULL, user needs to call this function again, and it will return point cloud data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:441` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_whole_mark_point(void*   handle, SN3D_CLOUD_POINT& point_cloud);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:443` `/** Delete Part of The Scan Data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:444` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:445` `* @param[in]	point_cloud			The rest of data after editing`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:446` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:448` `2. This function only can be called in the pause scanning status(sn3d_pause_scan).`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:453` `SN3D_SCAN_API int	CALL_METHOD   sn3d_update_cloud_point(void*   handle, SN3D_CLOUD_POINT& point_cloud);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:455` `/** Import Global Reference Point`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:456` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:457` `* @param[in]	mark_point			Global reference point, at least four points.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:458` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:461` `SN3D_SCAN_API int	CALL_METHOD   sn3d_import_global_mark_point(void*  handle, const SN3D_CLOUD_POINT& mark_point);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:463` `/** mesh process`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:464` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:465` `* @param[in]	param				Reference : The Definitions of SN3D_MESH_PROCESS_PARAM.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:466` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:469` `SN3D_SCAN_API int	CALL_METHOD   sn3d_mesh_process(void*  handle, const SN3D_MESH_PROCESS_PARAM& param);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:471` `/** Get Mesh Data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:472` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:473` `* @param[out]	mesh_data			mesh trim  data`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:474` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:475` `*  NOTE:    1. Calling this function is valid before getting the return value from callback function and receiving the SN3D_MESH_DATA_READY`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:476` `2. This function needs to be called twice. The first time, keep mesh_data pointer member is NULL, the function will return the  number.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:477` `Allocate the memory according to the  number from outside; when the pointer is not NULL, user needs to call this function again, and it will return  data.`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:481` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_current_mesh_data(void*   handle, SN3D_TRI_MESH& mesh_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:484` `/** get scan distance range`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:485` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:488` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:493` `SN3D_SCAN_API int	CALL_METHOD   sn3d_get_near_far_dis(void*   handle, float& min_near_dis, float& max_far_dis);`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:495` `/** set scan distance range`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:496` `* @param[in]	handle				Device handle from sn3d_initialize`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:499` `*  @return							Reference : The Definitions of Return Values`
+- `third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h:504` `SN3D_SCAN_API int	CALL_METHOD   sn3d_set_near_far_dis(void*   handle, const float min_near_dis, const float max_far_dis);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:15` `void free_point_memory(SN3D_CLOUD_POINT& point);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:16` `bool allocate_point_memory(SN3D_CLOUD_POINT& point);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:17` `bool allocate_mesh_trim(SN3D_TRI_MESH& mesh_trim);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:18` `void free_mesh_trim(SN3D_TRI_MESH& mesh_trim);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:20` `void get_scanner_rt(SN3D_SCANNER_RT& rt);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:21` `void update_scanner_rt(SN3D_SCANNER_RT& rt);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:22` `void update_current_cloud_point(SN3D_CLOUD_POINT& point);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:23` `void update_whole_cloud_point(SN3D_CLOUD_POINT& point);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:24` `void update_current_mark_point(SN3D_CLOUD_POINT& point);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:25` `void update_whole_mark_point(SN3D_CLOUD_POINT& point);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:26` `void update_mesh_trim(SN3D_TRI_MESH& mesh_trim);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:27` `int delete_point(int start0, int end0, int start1, int end1, int start2, int end2, SN3D_CLOUD_POINT& remain);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:29` `int save_whole_point(char* path);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:30` `int save_whole_mark_point(char* path);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:36` `void  set_align_mode(int  align_mode);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:37` `int   get_align_mode();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:40` `int       current_align_mode;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:42` `SN3D_SCANNER_RT		_scanner_rt;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:43` `SN3D_CLOUD_POINT	_current_point;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:44` `SN3D_CLOUD_POINT	_whole_point;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:45` `SN3D_CLOUD_POINT	_mark_point;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:46` `SN3D_CLOUD_POINT	_whole_mark_point;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\DataCenter.h:47` `SN3D_TRI_MESH		_mesh_trim;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:33` `class   mesh_param_dialog : public QDialog`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:37` `mesh_param_dialog(QWidget* parent = 0, Qt::WindowFlags flags = 0);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:38` `virtual ~mesh_param_dialog();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:40` `void get_param_config(SN3D_MESH_PROCESS_PARAM& param);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:60` `QHBoxLayout * init_ok_cancel_btn();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:61` `void init_mesh_group();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:62` `void init_simple_group();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:63` `void init_fill_hole_group();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:68` `QGroupBox*  mesh_group_box;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:70` `QRadioButton* mesh_type_watertight;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:71` `QRadioButton* mesh_type_unwatertight;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:73` `QRadioButton* mesh_resolution_hight;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:74` `QRadioButton* mesh_resolution_mid;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\mesh_param_dialog.h:75` `QRadioButton* mesh_resolution_low;`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:27` `ui_state_ui_init,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:28` `ui_state_open_scanner_ok,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:29` `ui_state_scanner_closed,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:30` `ui_state_scanning,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:31` `ui_state_scanning_paused,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:32` `ui_state_scanning_finished,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:33` `ui_state_scanning_canceled,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:34` `ui_state_mesh_processing,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:35` `ui_state_preview_scaning,`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:38` `void scan_callback(void*  handle, int  event_type, int  event_sub_type, void* data, int data_len);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:46` `int handle_update_scanner_rt(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:47` `int handle_update_current_cloud_point(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:48` `int handle_update_whole_cloud_point(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:49` `int handle_update_current_mark_cloud_point(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:50` `int handle_update_whole_mark_cloud_point(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:51` `int handle_update_mesh_data(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:53` `int handle_calibrate_msg(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:57` `int handle_scanner_double_click_msg(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:58` `int handle_scanner_click_msg(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:59` `int handle_scanner_plus_sub_msg(msg_data_t msg_data);`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:69` `void on_open_scanner();`
+- `third_party\deprecated-EinScan-SDK\SDK\sdk_demo_pro\sdk_demo_pro.h:70` `void on_close_scanner();`
+- ... 70 more
+
+## Next mapping
+
+Use this report to replace the TODO blocks in `bridge_cpp/einscan_legacy_bridge.cpp`. The bridge CLI contract is already wired to the Python UI.
