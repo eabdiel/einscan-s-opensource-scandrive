@@ -1,0 +1,222 @@
+============================================================
+EinScan-S Legacy Bridge Build - Windows x64
+Working dir: C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp
+============================================================
+cl.exe not currently on PATH. Trying to load Visual Studio environment...
+Found Visual Studio: C:\Program Files\Microsoft Visual Studio\18\Community
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.7.1
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Configuring CMake...
+-- Building for: Visual Studio 18 2026
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The CXX compiler identification is MSVC 19.51.36248.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- SDK_ROOT=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK
+-- SDK_INCLUDE=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/include
+-- SDK_LIB_DIR=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/x64_lib
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build
+Building Release...
+CMake is re-running because C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/CMakeLists.txt'
+  is newer than 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- SDK_ROOT=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK
+-- SDK_INCLUDE=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/include
+-- SDK_LIB_DIR=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/x64_lib
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build
+MSBuild version 18.7.8+1ac568fee for .NET Framework
+
+  1>Checking Build System
+  CMake is re-running because C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/CMakeLists.txt'
+    is newer than 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+  -- SDK_ROOT=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK
+  -- SDK_INCLUDE=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/include
+  -- SDK_LIB_DIR=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/x64_lib
+  -- Configuring done (0.0s)
+  -- Generating done (0.0s)
+  -- Build files have been written to: C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build
+  Building Custom Rule C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/CMakeLists.txt
+  CMake is re-running because C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/CMakeLists.txt'
+    is newer than 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+  -- SDK_ROOT=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK
+  -- SDK_INCLUDE=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/include
+  -- SDK_LIB_DIR=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/x64_lib
+  -- Configuring done (0.0s)
+  -- Generating done (0.0s)
+  -- Build files have been written to: C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build
+  einscan_legacy_bridge.cpp
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\einscan_legacy_bridge.cpp(144,32): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build\einscan_legacy_bridge.vcxproj]
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\einscan_legacy_bridge.cpp(162,37): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build\einscan_legacy_bridge.vcxproj]
+  einscan_legacy_bridge.vcxproj -> C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build\Release\einscan_legacy_bridge.exe
+  Building Custom Rule C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/CMakeLists.txt
+  CMake is re-running because C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/CMakeLists.txt'
+    is newer than 'C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+  -- SDK_ROOT=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK
+  -- SDK_INCLUDE=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/include
+  -- SDK_LIB_DIR=C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/../third_party/deprecated-EinScan-SDK/SDK/x64_lib
+  -- Configuring done (0.0s)
+  -- Generating done (0.0s)
+  -- Build files have been written to: C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build
+SUCCESS: Built C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build\Release\einscan_legacy_bridge.exe
+Copying SDK runtime folders next to EXE...
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithm1.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithm2.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithm3.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithmHlj.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\algorithmYxl.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\alpV42.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\BayerDec.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_chrono-vc120-mt-1_58.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_filesystem-vc120-mt-1_58.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_system-vc120-mt-1_58.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\boost_thread-vc120-mt-1_58.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\common.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\cudart64_70.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\cufft64_70.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\dynamixel.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\FreeImage.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\hardware_line_scaner.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\hasp_windows_x64_105562.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\laser_scaner.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\libglog.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\nppc64_70.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\nppi64_70.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_calib3d300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_core300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_cudaarithm300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_cudafilters300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_cudawarping300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_features2d300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_flann300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_highgui300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_imgcodecs300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_imgproc300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_video300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\opencv_videoio300.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\OpenMeshCore.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\OpenMeshTools.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\project.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Qt5Core.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Qt5Gui.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Qt5Widgets.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\S3DScanProcessing64.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\SiUSBXp.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DAlpCtrl.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DCalibration.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DCamera.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3DComputerRT.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DDLPdev.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DEncodeRecognition.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DFileIO.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHandiDLPDev.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHandiSync.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHDEinS.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHidBand.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHIDCommunication.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DHiddev.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DImageLoad.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLaserPlatCalibrate.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLcrdev.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLock.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DLockDll.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DProjector.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3DRegistration.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DScan.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DSockdev.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DStereoBuild.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DTargetAlign.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DTargetExtract.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3DTriMeshByPAG.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3DTurnTable.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Sn3D_Point_Extract.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\sn3d_pro_sdk.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\snCameraControl.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\tbb.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Ty3dEllipseReconstruction.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\USBAPI.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\utils.dll
+76 File(s) copied
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\MDVCamera.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\MVCamera.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\OMCamera.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\Device\SHNCamera.dll
+4 File(s) copied
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\config.xml
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\config_publish.xml
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\config_plus.xml
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150\activeBox.dat
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150\cameraTex_R_T_Rectify.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150\LeftCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150\RightCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150\TexCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150_plus_publish\cameraTex_R_T_Rectify.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150_plus_publish\LeftCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\200x150_plus_publish\RightCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\BuildSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\CalibrateSection.cas
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\CalibrateSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\CameraSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\CaptureSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\CaptureSettings2.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\CaptureSettings2plus.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\system.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-plus\ini\plane\201601291112-V200.ple
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\config_pro.xml
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\activeBox.dat
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\cameraTex_R_T_Rectify.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\LaserPlatCali.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\LeftCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\RightCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\TexCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150\wb.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150_pro_pulish\cameraTex_R_T_Rectify.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150_pro_pulish\LeftCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\200x150_pro_pulish\RightCCF.txt
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\BuildSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\CalibrateSection.cas
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\CalibrateSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\CameraSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\CaptureSetting.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\CaptureSettings2.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\CaptureSettings2plus.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\system.ini
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\res\Einscan-pro\ini\plane\201601291112-V200.ple
+40 File(s) copied
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\plugins\platforms\qminimal.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\plugins\platforms\qoffscreen.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\plugins\platforms\qwindows.dll
+3 File(s) copied
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\optional\S3DScanProcessing.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\optional\TextureMappingAll_CPU.dll
+C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\..\third_party\deprecated-EinScan-SDK\SDK\x64_dll\optional\TextureMappingAll_GPU.dll
+3 File(s) copied
+Copied SDK DLLs plus Device/res/plugins/optional folders when present.
+Done. Next run: scripts\test_zluda_probe.bat from the project root.
+EinScan-S Legacy Bridge Build - Windows x64
+Working dir: C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build
+============================================================
+ERROR: SDK header not found.
+Expected: C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build\..\third_party\deprecated-EinScan-SDK\SDK\include\sn3d_pro_sdk.h
+Fix: copy or clone the deprecated SDK into third_party\deprecated-EinScan-SDK
+FAILED. Full log: C:\Users\abdie\PycharmProjects\einscan-model-s-opensource\bridge_cpp\build_windows_x64.log

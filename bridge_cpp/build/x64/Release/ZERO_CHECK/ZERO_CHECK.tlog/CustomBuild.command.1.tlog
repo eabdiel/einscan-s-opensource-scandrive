@@ -1,0 +1,10 @@
+^C:\USERS\ABDIE\PYCHARMPROJECTS\EINSCAN-MODEL-S-OPENSOURCE\BRIDGE_CPP\BUILD\CMAKEFILES\4718D113140249CD1CF1C424163E4B23\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp -BC:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/abdie/PycharmProjects/einscan-model-s-opensource/bridge_cpp/build/einscan_legacy_bridge.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
