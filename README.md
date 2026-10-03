@@ -1,5 +1,11 @@
 # EinScan-S Python Bridge - real native SDK build
 
+Experimental EinScan-S 3D scanner desktop interface: Python/PySide6 UI and C++ bridge to the legacy native SDK.
+
+A project of **[ProgreTech LLC](https://progretech.com)**, owned and maintained by **Ed Rodriguez**. Third-party components and contributions retain their respective ownership and notices.
+
+[Project website](https://progretech.com) · [Report an issue](https://github.com/eabdiel/einscan-s-opensource-scandrive/issues) · [Contribute](CONTRIBUTING.md)
+
 This package is now wired for the deprecated SHINING 3D EinScan-S SDK instead of mock-only mode.
 
 ## What is included
@@ -146,3 +152,19 @@ scripts\test_zluda_probe.bat
 ```
 
 The probe now tests both `EinScan-Pro` and `EinScan-Plus` device types across the SDK init modes.
+
+## Collaboration
+
+Reproducible bug reports, platform compatibility, installation documentation, and small regression fixes are useful ways to help. Read [CONTRIBUTING.md](CONTRIBUTING.md) for issue reports, proposed changes, and attribution requirements.
+
+## License and reuse
+
+The repository includes GPL-3.0 terms in [LICENSE](LICENSE). Preserve applicable copyright and license notices. Consult the full license for modification, distribution, and any source-provision requirements.
+
+The SHINING 3D native SDK, drivers, and runtime DLLs have separate terms. Verify redistribution permission and GPL compatibility before shipping a combined package; the repository license does not grant rights to the SDK.
+
+## More from ProgreTech
+
+Explore [CodeSeal](https://codeseal.progretech.com) for signed software provenance and project history.
+
+Discover the wider portfolio at [progretech.com](https://progretech.com). These links identify related products; they do not imply a bundled integration or shared license.
